@@ -1,0 +1,87 @@
+.para{
+    display:block !important;
+    margin-top:6px !important;
+    background-image:url(/static/images/list.png) !important;
+    background-repeat:no-repeat !important;
+    background-position:left 2px !important;
+    padding-left:15px !important;
+}
+
+.entry{
+    display:block !important;
+    margin-bottom:0 !important;
+    /*font-family: "Lucida Grande", "Lucida Sans Unicode", "DejaVuSans",*/
+                 /*Lucida, Arial, Helvetica, sans-serif !important;*/
+    font-family: inherit !important;
+    font-size:14px !important;
+    color:#000 !important;
+}
+
+/*dark blue*/
+.cf, .cc {
+    font-family: inherit !important;
+}
+
+.sd {
+    font-family: inherit !important;
+}
+
+.unbox .title {
+    font-family: inherit !important;
+}
+
+/*see also*/
+.z_xr {
+    font-family: inherit !important;
+}
+
+.ei-g .sound:hover, 
+.if-g .sound:hover {
+    border: 1px solid #c6c6c6 !important;
+    border-radius: 2px !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
+    background-image:url(/static/images/sound2.png) !important;
+}
+
+.webtop-g .sound,.top-g .sound,.ei-g .sound,.if-g .sound{
+    border: 1px solid transparent !important;
+    padding: 2px !important;
+    vertical-align:middle !important;
+    display:inline !important;
+    margin:0 5px !important;
+    background-image:url(/static/images/sound.png) !important;
+    background-repeat:no-repeat !important;
+    background-size: 16px 16px !important;
+    background-position: center !important;
+    line-height:12px;font-size:14px !important;
+}
+
+.h,.h2,.he{
+    display:inline !important;
+    font-size:18pt !important;
+    font-weight:bold !important;
+    color:#33333f !important;
+    margin-bottom:5px !important;
+    margin-right:10px !important;
+    padding-right:10px !important;
+}
+
+.top-container{
+    border-bottom-width:2px !important;
+    border-bottom-style:solid !important;
+    border-bottom-color:#d9d9d9 !important;
+    padding-top:5px !important;
+    margin-top:0 !important;
+    margin-right:0 !important;
+    margin-bottom:10px !important;
+    margin-left:0 !important;
+    clear:both !important;
+}
+
+.xr-g {
+    background-image: url('/static/images/xref-arrow.png') !important;
+}
+
+.xh {
+    color: #835252 !important;
+}

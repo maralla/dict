@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Dictionary{% endblock %}
+{% block head %}
+<link rel="stylesheet" type="text/css"
+href="/static/min/style-min.css"/>
+{#<link rel="stylesheet" type="text/css"
+href="/static/css/style.css"/>#}
+{% endblock %}
+
+{% block body %}
+<header>
+    <div class="container searchEntry">
+        <div class="inputarea">
+            <div id="search">
+                <label style="font-family: Cantarell">Look up:</label>
+                <input type="text" name="word" autocomplete="on"/>	
+                <button class="button click" type="button"></button>
+            </div>
+            <div id='history'>
+                <select class='click'></select>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="main">
+    <div id="definition">
+        <div class="word">
+            <div class="related"></div>
+            <div class="content"></div>
+        </div>
+        <div class="padding"></div>
+    </div>
+</section>
+
+{#<script data-main="/static/js/main"
+    src="/static/js/libs/require.js"></script>#}
+<script src="/static/js/libs/require.js"></script>
+<script src="/static/min/main-min.js"></script>
+{% endblock %}

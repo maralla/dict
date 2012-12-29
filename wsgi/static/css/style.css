@@ -1,0 +1,16 @@
+@import url('normalize.css');
+@import url('search.css');
+@import url('content.css');
+@import url('other.css');
+@import url('oxford.css');
+@import url('related.css');
+
+@font-face {
+    font-family: OpenSans;
+    src: url('/static/fonts/OpenSans-Light-webfont.woff');
+}
+
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "DejaVuSans",
+                 Lucida, Arial, Helvetica, sans-serif !important;
+}
