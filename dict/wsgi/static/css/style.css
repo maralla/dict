@@ -1,0 +1,10 @@
+@import url('/static/css/normalize.css');
+@import url('/static/css/search.css');
+@import url('/static/css/content.css');
+@import url('/static/css/other.css');
+@import url('/static/css/related.css');
+
+@font-face {
+    font-family: OpenSans;
+    src: url('/static/fonts/OpenSans-Light-webfont.woff');
+}
