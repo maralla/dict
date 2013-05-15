@@ -57,6 +57,7 @@ define([
             this.content.word.set({'word': word});
             this.content.word.fetch({
                 success: function(model, response, options){
+                    that.content.ok = true;
                     that.content.render();
                     that.unwait();
                     if (s) {
@@ -69,6 +70,11 @@ define([
                         that.wordcollection.add(cloneModel,
                                                 {nav: that.naview});
                     }
+                },
+                error: function(m, r, o){
+                    that.content.ok = false;
+                    that.content.render();
+                    that.unwait();
                 }
             });
         },

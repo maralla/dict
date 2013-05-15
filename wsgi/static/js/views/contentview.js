@@ -11,6 +11,7 @@ define([
             var that = this;
             this.word = new WordModel();
             this.audio = new Audio();
+            this.ok = true;
             window.playSoundFromFlash = function(src, obj){
                 that.audio.src = 'http://oaadonline.' + 
                                   'oxfordlearnersdictionaries.com' + src;
@@ -18,14 +19,20 @@ define([
             };
         },
         render: function(){
-            var related = this.word.get('related');
-            related = (related != '#') ? related : ''
-            this.$el.find('.related').html(related);
-            this.$el.find('.content').html(this.word.get('content'));
-            var oald = this.$el.find('a[href^="http://oald8"]');
-            if (oald)
-                oald.html('other dictionaries').addClass('noa')
-                    .removeAttr('title').removeAttr('href');
+            if (this.ok) {
+                var related = this.word.get('related');
+                related = (related != '#') ? related : ''
+                this.$el.find('.related').html(related);
+                this.$el.find('.content').html(this.word.get('content'));
+                var oald = this.$el.find('a[href^="http://oald8"]');
+                if (oald)
+                    oald.html('other dictionaries').addClass('noa')
+                        .removeAttr('title').removeAttr('href');
+            } else {
+                this.$el.find('.related').html('');
+                this.$el.find(".content").html(
+                    "<div class='error'>Internal Error</div>")
+            }
         },
         content_disable: function(){
             var padding = this.$el.find('.padding'),
