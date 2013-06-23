@@ -16,7 +16,7 @@ div#relatedentries{
 }
 .relatedentries ul li,#relatedentries ul li{
     list-style-image:none;
-    background-image:url("/static/images/list.png");
+    background-image:url("../images/list.png");
     background-repeat:no-repeat;
     background-position:left 2px;
     list-style-type:none;

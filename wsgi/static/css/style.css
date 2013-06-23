@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: OpenSans;
-    src: url('/static/fonts/OpenSans-Light-webfont.woff');
+    src: url('../fonts/OpenSans-Light-webfont.woff');
 }
 
 body {

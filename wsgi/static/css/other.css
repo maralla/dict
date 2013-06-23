@@ -1,7 +1,7 @@
 .para{
     display:block !important;
     margin-top:6px !important;
-    background-image:url(/static/images/list.png) !important;
+    background-image:url('../images/list.png') !important;
     background-repeat:no-repeat !important;
     background-position:left 2px !important;
     padding-left:15px !important;
@@ -40,7 +40,7 @@
     border: 1px solid #c6c6c6 !important;
     border-radius: 2px !important;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
-    background-image:url(/static/images/sound2.png) !important;
+    background-image:url('../images/sound2.png') !important;
 }
 
 .webtop-g .sound,.top-g .sound,.ei-g .sound,.if-g .sound{
@@ -49,7 +49,7 @@
     vertical-align:middle !important;
     display:inline !important;
     margin:0 5px !important;
-    background-image:url(/static/images/sound.png) !important;
+    background-image:url('../images/sound.png') !important;
     background-repeat:no-repeat !important;
     background-size: 16px 16px !important;
     background-position: center !important;
@@ -69,7 +69,7 @@
 .top-container{
     border-bottom-width:2px !important;
     border-bottom-style:solid !important;
-    border-bottom-color:#d9d9d9 !important;
+    border-bottom-color:#b3b3b3 !important;
     padding-top:5px !important;
     margin-top:0 !important;
     margin-right:0 !important;
@@ -78,10 +78,35 @@
     clear:both !important;
 }
 
+.unbox {
+  background-color: #eeeeee !important;
+  border-top-color: #b3b3b3 !important;
+  border-bottom-color: #b3b3b3 !important;
+}
+
+.title {
+  background-color: #dddddd !important;
+}
+
 .xr-g {
-    background-image: url('/static/images/xref-arrow.png') !important;
+    background-image: url('../images/xref-arrow.png') !important;
 }
 
 .xh {
     color: #835252 !important;
+}
+
+.help {
+  background-color: #ececec !important;
+  border-top-width: 0 !important;
+  border-bottom-width: 0 !important;
+  box-shadow: 0px 1px 4px rgb(170, 170, 170);
+}
+
+.id-g {
+  border-bottom-color: #BCBAF1 !important;
+}
+
+.pv-g {
+  border-bottom-color: #A2C6C7 !important;
 }

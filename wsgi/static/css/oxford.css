@@ -39,10 +39,10 @@ a.button{text-decoration:none;}.speakeruk,.speakerus{font-size:120%;color:#078d8
 .exa{display:inline;}.label{display:inline;}.entry{display:block;margin-bottom:2em;font-family:Verdana;font-size:12px;color:#000;}
 .h-g{display:block;margin-left:0;text-indent:0;}.idsym-g{display:block;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#35338A;margin-top:30px;margin-right:0;margin-bottom:10px;margin-left:19px;color:#192d59;font-weight:600;}
 .z_idsym{display:block;margin-top:2px;vertical-align:20%;color:#35338A;font-weight:bold;}.pvsym-g{display:block;border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#078d8f;margin-top:30px;margin-right:0;margin-bottom:10px;margin-left:19px;color:#192d59;font-weight:600;}
-.pvsym-g>.z_idsym,.z_pvsym,.pvp-g .z_idsym{color:#078D8F!important;}.ipa_block{vertical-align:middle;width:221px;display:block;height:100%;border:2px solid #8f0610;margin-right:10px;float:left;margin-top:2px;background-image:url(../images/documents/bt_invert_sound0.png);background-repeat:no-repeat;line-height:12px;font-size:14px;background-position:left top;background-color:#fff;}
-.ipa_block:hover{border:2px solid #045983;background-image:url(../images/documents/bt_invert_sound1.png);background-repeat:no-repeat;}
-.webtop-g .sound:hover,.top-g .sound:hover,.ei-g .sound:hover,.if-g .sound:hover{background-image:url(../images/documents/bt_invert_sound1.png);background-repeat:no-repeat;}
-.webtop-g .sound,.top-g .sound,.ei-g .sound,.if-g .sound{vertical-align:middle;display:inline;margin:0 5px;background-image:url(../images/documents/bt_invert_sound0.png);background-repeat:no-repeat;line-height:12px;font-size:14px;background-position:left top;}
+.pvsym-g>.z_idsym,.z_pvsym,.pvp-g .z_idsym{color:#078D8F!important;}.ipa_block{vertical-align:middle;width:221px;display:block;height:100%;border:2px solid #8f0610;margin-right:10px;float:left;margin-top:2px;background-repeat:no-repeat;line-height:12px;font-size:14px;background-position:left top;background-color:#fff;}
+.ipa_block:hover{border:2px solid #045983;background-repeat:no-repeat;}
+.webtop-g .sound:hover,.top-g .sound:hover,.ei-g .sound:hover,.if-g .sound:hover{background-repeat:no-repeat;}
+.webtop-g .sound,.top-g .sound,.ei-g .sound,.if-g .sound{vertical-align:middle;display:inline;margin:0 5px;background-repeat:no-repeat;line-height:12px;font-size:14px;background-position:left top;}
 .ipa_block img{border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;margin-top:0;margin-right:5px;margin-bottom:0;margin-left:0;}
 .sound img{border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;margin-top:0;margin-right:5px;margin-bottom:0;margin-left:0;}
 .z_ei-g,.ei-g{line-height:14px;display:block;margin-top:5px;margin-right:0;margin-bottom:10px;margin-left:0;}
@@ -53,7 +53,7 @@ a.button{text-decoration:none;}.speakeruk,.speakerus{font-size:120%;color:#078d8
 .z_n{font-weight:bold;}.ids-g,.pvp-g{display:block;margin-top:10px;}.id-g{display:block;margin-top:5px;margin-left:19px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#35338a;margin-bottom:5px;padding-bottom:5px;}
 .pv-g{display:block;margin-top:5px;margin-left:19px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#078d8f;margin-bottom:5px;padding-bottom:5px;}
 .id{display:inline;font-weight:bold;color:#35338a;margin:0;}.pv{display:inline;font-weight:bold;color:#078d8f;margin:0;}
-.dr-g{display:block;margin-left:0;margin-top:.5em;background-image:url(../images/arrow-mblue.png);background-repeat:no-repeat;background-position:left 3px;padding-left:1.5em;}
+.dr-g{display:block;margin-left:0;margin-top:.5em;background-repeat:no-repeat;background-position:left 3px;padding-left:1.5em;}
 .etym>.a{display:none;}.etym{display:block;margin-left:0;text-indent:0;margin-top:.5em;font-family:Verdana;font-size:8pt;}
 .wf-g{display:block;margin-left:0;text-indent:0;margin-top:.5em;padding:.2em .5em .5em .5em;border-width:1px;border-style:solid;border-color:#276e98;-moz-border-radius:4px;clear:both;}
 .help{display:block;margin-left:0;text-indent:0;margin-top:10px;-moz-border-radius:4px;background-color:#FEF9DB;clear:both;border-bottom-color:#e0b900;border-bottom-style:solid;border-bottom-width:1px;border-top-color:#e0b900;border-top-style:solid;border-top-width:1px;margin-right:0;padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px;}
@@ -111,7 +111,7 @@ a+.h,a+.h2,a+.he{padding-left:10px;}.w_in_h{font-size:10pt;}.hs{font-size:20pt;c
 .unbox .eb{color:#276e98;}a+.usage_note_header{padding-left:10px;}.ei-g .y{margin-left:30px;vertical-align:top;}
 .a{font-weight:bold;color:#276e98;}.qt .para .para{display:inline;margin-left:0;padding-left:0;font-weight:bold;}
 .ifs-g .if-g .ei-g{margin-top:2px;}.z_xr .icon.icon-idsym strong{font-size:8pt;background-color:#35338a;font-family:"Times New Roman",Times,serif;font-weight:bold;color:#FFF;padding-right:5px;padding-left:5px;display:inline;text-indent:0;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;margin-top:0;margin-right:-5px;margin-bottom:0;margin-left:-10px;}
-.xr-g{display:block;margin-top:5px;background-repeat:no-repeat;background-position:3px 2px;background-image:url(../images/xref-arrow.png);padding-left:19px;padding-right:3px;margin-bottom:5px;}
+.xr-g{display:block;margin-top:5px;background-repeat:no-repeat;background-position:3px 2px;padding-left:19px;padding-right:3px;margin-bottom:5px;}
 .sd-g .xr-g{text-indent:0;}.pvp-g .xr-g{text-indent:0;}.xr-g .z_xr .z_spc_pre{display:inline;margin:0;padding:0;}
 #entryContent{line-height:20px;}.n-g .xr-g{text-indent:0;background-repeat:no-repeat;padding-left:18px;margin-left:-19px;}
 .n-g .d{text-indent:0;}.sd-g .help{margin-left:0;}.help .x-g{margin-left:0;}.unbox .table{border:1px solid #E0B900;margin-top:8px;margin-bottom:8px;padding:0;background-color:#fafae6;}
