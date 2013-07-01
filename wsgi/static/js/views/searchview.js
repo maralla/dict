@@ -42,7 +42,7 @@ define([
         },
         doSearch: function(word, s){
             var old = _.find(this.wordcollection.models, function(e, i, l){
-                return (new RegExp(e.get('word'), 'i')).test(word);
+                return (new RegExp('^' + e.get('word') + '$', 'i')).test(word);
             });
             if (old) {
                 this.content.word.set(old.attributes);
