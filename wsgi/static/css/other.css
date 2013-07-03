@@ -111,3 +111,12 @@
 .pv-g {
   border-bottom-color: #A2C6C7 !important;
 }
+
+.h-g .d {
+  display: inline !important;
+}
+
+.z_n {
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
