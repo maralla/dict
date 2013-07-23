@@ -124,3 +124,9 @@
 .hs {
   color: #707070 !important;
 }
+
+.search-term {
+  text-shadow: 1px 1px 3px hsl(0, 0%, 63%);
+  font-style: italic;
+  color: hsl(127, 1%, 57%);
+}
