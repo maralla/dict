@@ -35,6 +35,5 @@ class Word(Document):
 
 conn = Connection(host=settings.HOST, port=int(settings.PORT))
 conn.register([Word])
-#db = Database(conn, 't')
-db = Database(conn, 'dictionary')
-#db.authenticate('admin', 'fk5es-3PTd8c')
+db = Database(conn, 't')
+db.authenticate('admin', 'fk5es-3PTd8c')
