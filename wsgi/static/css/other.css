@@ -79,13 +79,13 @@
 }
 
 .unbox {
-  background-color: #eeeeee !important;
-  border-top-color: #b3b3b3 !important;
-  border-bottom-color: #b3b3b3 !important;
+  background-color: hsl(0, 0%, 97%) !important;
+  border-top-color: hsl(0, 0%, 85%) !important;
+  border-bottom-color: hsl(0, 0%, 85%) !important;
 }
 
 .title {
-  background-color: #dddddd !important;
+  background-color: hsl(0, 0%, 94%) !important;
 }
 
 .xr-g {
