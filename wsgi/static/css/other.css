@@ -130,3 +130,7 @@
   font-style: italic;
   color: hsl(127, 1%, 57%);
 }
+
+#search-results {
+  color: hsl(0, 0%, 39%) !important;
+}
